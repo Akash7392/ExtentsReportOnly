@@ -16,7 +16,7 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 import com.google.common.io.Files;
 
-public class CommonBaseClass {
+public class CommonBaseClass{
 	
 
 	public static WebDriver d;
@@ -39,7 +39,7 @@ public class CommonBaseClass {
 
 		try {
 			FileInputStream f = new FileInputStream(
-					"D:\\Eclipse\\eclipse-workspace\\ExtentsReportOnly\\src\\main\\java\\propertycongiguration\\config.properties");
+					"D:\\Eclipse\\NewRepo\\ExtentsReportOnly\\ExtentsReportOnly\\src\\main\\java\\propertycongiguration\\config.properties");
 			prop.load(f);
 			
 		}
@@ -54,12 +54,12 @@ public class CommonBaseClass {
 		d.manage().timeouts().implicitlyWait(l, TimeUnit.SECONDS);
 	}
 
-	public String getscreenshot(WebDriver wd, String name) throws Exception {
+	public static String getscreenshot(WebDriver wd, String name) throws Exception {
 		TakesScreenshot ts = (TakesScreenshot) wd;
 		File s = ts.getScreenshotAs(OutputType.FILE);
 		File d = new File(prop.getProperty("failscreenshotpath") + name + ".png");
 	    Files.copy(s, d);
-		String dest ="D:\\Eclipse\\eclipse-workspace\\ExtentsReportOnly\\Failedscreenshot\\";
+		String dest ="D:\\Eclipse\\NewRepo\\ExtentsReportOnly\\ExtentsReportOnly\\Failedscreenshot\\";
 		System.out.println(dest);
 		return dest;
 
@@ -67,7 +67,7 @@ public class CommonBaseClass {
 
 	public static void extentconfig() {
 		
-	 extenthtmlreporter = new ExtentHtmlReporter("D:\\Eclipse\\eclipse-workspace\\ExtentsReportOnly\\ecomreport\\ecomtestresult.html");
+	 extenthtmlreporter = new ExtentHtmlReporter("D:\\Eclipse\\NewRepo\\ExtentsReportOnly\\ExtentsReportOnly\\ecomreport\\ecomtestresult.html");
 	 extenthtmlreporter.config().setDocumentTitle("ecomtestresult");	
 	 extenthtmlreporter.config().setReportName("ecomreport");
 	 extenthtmlreporter.config().setTheme(Theme.DARK);

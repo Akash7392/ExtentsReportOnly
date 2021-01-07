@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [ExtentsReport]">
+  <test thread-count="5" verbose="0" name="TestOnJenkin(failed)">
+    <classes>
+      <class name="ecom.SearchPageTest">
+        <methods>
+          <include name="titletest3"/>
+          <include name="teardown"/>
+          <include name="extentreportinitialisation"/>
+          <include name="teardownforextents"/>
+          <include name="access"/>
+        </methods>
+      </class> <!-- ecom.SearchPageTest -->
+      <class name="ecom.HomePageTest">
+        <methods>
+          <include name="teardownforextents"/>
+          <include name="access"/>
+          <include name="extentreportinitialisation"/>
+          <include name="teardown"/>
+          <include name="title"/>
+        </methods>
+      </class> <!-- ecom.HomePageTest -->
+    </classes>
+  </test> <!-- TestOnJenkin(failed) -->
+</suite> <!-- Failed suite [ExtentsReport] -->

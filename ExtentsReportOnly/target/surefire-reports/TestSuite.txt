@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 137.551 s <<< FAILURE! - in TestSuite
+ecom.HomePageTest.title  Time elapsed: 0.038 s  <<< FAILURE!
+java.lang.AssertionError: expected [awesome] but found [My Store]
+	at ecom.HomePageTest.title(HomePageTest.java:76)
+
+ecom.SearchPageTest.titletest3  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: expected [awesome] but found [My Store]
+	at ecom.SearchPageTest.titletest3(SearchPageTest.java:56)
+

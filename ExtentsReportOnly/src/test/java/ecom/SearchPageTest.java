@@ -1,5 +1,5 @@
 package ecom;
-
+import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
@@ -13,17 +13,18 @@ import com.aventstack.extentreports.Status;
 import common_base.CommonBaseClass;
 import ecommain.HomePageMain;
 
-public class SearchPageTest extends CommonBaseClass  {
+public class SearchPageTest extends CommonBaseClass{
 	
-	
-	HomePageMain<Object> h = new HomePageMain<Object>();
-	//HomePageMain pf = PageFactory.initElements(d, HomePageMain.class);
 
-	
+
+	HomePageMain pfn = PageFactory.initElements(d, HomePageMain.class);
+
+
 	@BeforeSuite
 	public void extentreportinitialisation()
 	{
 		CommonBaseClass.extentconfig();
+		
 	}
 	@BeforeMethod
 	public void access() {
@@ -51,7 +52,7 @@ public class SearchPageTest extends CommonBaseClass  {
 	public void titletest3() {
 		extenttest=extentreport.createTest("test3");
 		String expt="awesome";
-		String act=h.gettitle();
+		String act=pfn.gettitle();
 	    Assert.assertEquals(act, expt);
 		  
 	}
@@ -75,7 +76,7 @@ public class SearchPageTest extends CommonBaseClass  {
 		{
 			extenttest.log(Status.FAIL, "test case is failed" + r.getName());
 			extenttest.log(Status.FAIL, r.getThrowable());
-			String sd=h.getscreenshot(d, r.getName());
+			String sd=CommonBaseClass.getscreenshot(d, r.getName());
 			extenttest.addScreencastFromPath(sd);
 		}
 
@@ -86,12 +87,8 @@ public class SearchPageTest extends CommonBaseClass  {
 	@AfterSuite
 	public void teardownforextents()
 	{
-		HomePageMain.teardownextent();
-	}
-	
-	
-	
-	
+		CommonBaseClass.teardownextent();
+	}	
 	
 	
 	
