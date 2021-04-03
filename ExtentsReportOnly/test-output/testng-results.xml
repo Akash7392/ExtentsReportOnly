@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="2" ignored="0" total="8" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="158480" started-at="2021-01-07T22:36:46 IST" finished-at="2021-01-07T22:39:25 IST">
+  <suite name="ExtentsReport" duration-ms="151248" started-at="2021-03-30T18:01:59 IST" finished-at="2021-03-30T18:04:31 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="158480" started-at="2021-01-07T22:36:46 IST" finished-at="2021-01-07T22:39:25 IST">
+    <test name="TestOnJenkin" duration-ms="151248" started-at="2021-03-30T18:01:59 IST" finished-at="2021-03-30T18:04:31 IST">
       <class name="ecom.HomePageTest">
-        <test-method status="PASS" signature="extentreportinitialisation()[pri:0, instance:ecom.HomePageTest@69b0fd6f]" name="extentreportinitialisation" is-config="true" duration-ms="154" started-at="2021-01-07T22:36:46 IST" finished-at="2021-01-07T22:36:46 IST">
+        <test-method status="PASS" signature="extentreportinitialisation()[pri:0, instance:ecom.HomePageTest@69b0fd6f]" name="extentreportinitialisation" is-config="true" duration-ms="807" started-at="2021-03-30T18:01:58 IST" finished-at="2021-03-30T18:01:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extentreportinitialisation -->
-        <test-method status="PASS" signature="access()[pri:0, instance:ecom.HomePageTest@69b0fd6f]" name="access" is-config="true" duration-ms="18522" started-at="2021-01-07T22:36:46 IST" finished-at="2021-01-07T22:37:05 IST">
+        <test-method status="PASS" signature="access()[pri:0, instance:ecom.HomePageTest@69b0fd6f]" name="access" is-config="true" duration-ms="31847" started-at="2021-03-30T18:01:59 IST" finished-at="2021-03-30T18:02:31 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- access -->
-        <test-method status="PASS" signature="signin()[pri:1, instance:ecom.HomePageTest@69b0fd6f]" name="signin" duration-ms="3505" started-at="2021-01-07T22:37:05 IST" finished-at="2021-01-07T22:37:08 IST">
+        <test-method status="PASS" signature="signin()[pri:1, instance:ecom.HomePageTest@69b0fd6f]" name="signin" duration-ms="2928" started-at="2021-03-30T18:02:31 IST" finished-at="2021-03-30T18:02:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signin -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:ecom.HomePageTest@69b0fd6f]" name="teardown" is-config="true" duration-ms="784" started-at="2021-01-07T22:37:08 IST" finished-at="2021-01-07T22:37:09 IST">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:ecom.HomePageTest@69b0fd6f]" name="teardown" is-config="true" duration-ms="1185" started-at="2021-03-30T18:02:34 IST" finished-at="2021-03-30T18:02:35 IST">
           <params>
             <param index="0">
               <value>
@@ -30,15 +30,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="access()[pri:0, instance:ecom.HomePageTest@69b0fd6f]" name="access" is-config="true" duration-ms="17883" started-at="2021-01-07T22:37:09 IST" finished-at="2021-01-07T22:37:27 IST">
+        <test-method status="PASS" signature="access()[pri:0, instance:ecom.HomePageTest@69b0fd6f]" name="access" is-config="true" duration-ms="14140" started-at="2021-03-30T18:02:35 IST" finished-at="2021-03-30T18:02:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- access -->
-        <test-method status="PASS" signature="contact_us()[pri:2, instance:ecom.HomePageTest@69b0fd6f]" name="contact_us" duration-ms="1847" started-at="2021-01-07T22:37:27 IST" finished-at="2021-01-07T22:37:29 IST">
+        <test-method status="PASS" signature="contact_us()[pri:2, instance:ecom.HomePageTest@69b0fd6f]" name="contact_us" duration-ms="2574" started-at="2021-03-30T18:02:50 IST" finished-at="2021-03-30T18:02:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contact_us -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:ecom.HomePageTest@69b0fd6f]" name="teardown" is-config="true" duration-ms="810" started-at="2021-01-07T22:37:29 IST" finished-at="2021-01-07T22:37:30 IST">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:ecom.HomePageTest@69b0fd6f]" name="teardown" is-config="true" duration-ms="784" started-at="2021-03-30T18:02:52 IST" finished-at="2021-03-30T18:02:53 IST">
           <params>
             <param index="0">
               <value>
@@ -49,15 +49,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="access()[pri:0, instance:ecom.HomePageTest@69b0fd6f]" name="access" is-config="true" duration-ms="19386" started-at="2021-01-07T22:37:30 IST" finished-at="2021-01-07T22:37:49 IST">
+        <test-method status="PASS" signature="access()[pri:0, instance:ecom.HomePageTest@69b0fd6f]" name="access" is-config="true" duration-ms="13572" started-at="2021-03-30T18:02:53 IST" finished-at="2021-03-30T18:03:06 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- access -->
-        <test-method status="PASS" signature="enter_search()[pri:3, instance:ecom.HomePageTest@69b0fd6f]" name="enter_search" duration-ms="239" started-at="2021-01-07T22:37:49 IST" finished-at="2021-01-07T22:37:49 IST">
+        <test-method status="PASS" signature="enter_search()[pri:3, instance:ecom.HomePageTest@69b0fd6f]" name="enter_search" duration-ms="220" started-at="2021-03-30T18:03:06 IST" finished-at="2021-03-30T18:03:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enter_search -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:ecom.HomePageTest@69b0fd6f]" name="teardown" is-config="true" duration-ms="842" started-at="2021-01-07T22:37:49 IST" finished-at="2021-01-07T22:37:50 IST">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:ecom.HomePageTest@69b0fd6f]" name="teardown" is-config="true" duration-ms="1281" started-at="2021-03-30T18:03:07 IST" finished-at="2021-03-30T18:03:08 IST">
           <params>
             <param index="0">
               <value>
@@ -68,15 +68,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="access()[pri:0, instance:ecom.HomePageTest@69b0fd6f]" name="access" is-config="true" duration-ms="17693" started-at="2021-01-07T22:37:50 IST" finished-at="2021-01-07T22:38:08 IST">
+        <test-method status="PASS" signature="access()[pri:0, instance:ecom.HomePageTest@69b0fd6f]" name="access" is-config="true" duration-ms="13454" started-at="2021-03-30T18:03:08 IST" finished-at="2021-03-30T18:03:21 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- access -->
-        <test-method status="PASS" signature="click_search_click()[pri:4, instance:ecom.HomePageTest@69b0fd6f]" name="click_search_click" duration-ms="2958" started-at="2021-01-07T22:38:08 IST" finished-at="2021-01-07T22:38:11 IST">
+        <test-method status="PASS" signature="click_search_click()[pri:4, instance:ecom.HomePageTest@69b0fd6f]" name="click_search_click" duration-ms="5077" started-at="2021-03-30T18:03:21 IST" finished-at="2021-03-30T18:03:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- click_search_click -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:ecom.HomePageTest@69b0fd6f]" name="teardown" is-config="true" duration-ms="934" started-at="2021-01-07T22:38:11 IST" finished-at="2021-01-07T22:38:12 IST">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:ecom.HomePageTest@69b0fd6f]" name="teardown" is-config="true" duration-ms="1158" started-at="2021-03-30T18:03:26 IST" finished-at="2021-03-30T18:03:28 IST">
           <params>
             <param index="0">
               <value>
@@ -87,11 +87,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="access()[pri:0, instance:ecom.HomePageTest@69b0fd6f]" name="access" is-config="true" duration-ms="16957" started-at="2021-01-07T22:38:12 IST" finished-at="2021-01-07T22:38:29 IST">
+        <test-method status="PASS" signature="access()[pri:0, instance:ecom.HomePageTest@69b0fd6f]" name="access" is-config="true" duration-ms="13605" started-at="2021-03-30T18:03:28 IST" finished-at="2021-03-30T18:03:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- access -->
-        <test-method status="FAIL" signature="title()[pri:5, instance:ecom.HomePageTest@69b0fd6f]" name="title" duration-ms="10" started-at="2021-01-07T22:38:29 IST" finished-at="2021-01-07T22:38:29 IST">
+        <test-method status="FAIL" signature="title()[pri:5, instance:ecom.HomePageTest@69b0fd6f]" name="title" duration-ms="15" started-at="2021-03-30T18:03:41 IST" finished-at="2021-03-30T18:03:41 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [awesome] but found [My Store]]]>
@@ -138,7 +138,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- title -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:ecom.HomePageTest@69b0fd6f]" name="teardown" is-config="true" duration-ms="1774" started-at="2021-01-07T22:38:29 IST" finished-at="2021-01-07T22:38:31 IST">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:ecom.HomePageTest@69b0fd6f]" name="teardown" is-config="true" duration-ms="1978" started-at="2021-03-30T18:03:41 IST" finished-at="2021-03-30T18:03:43 IST">
           <params>
             <param index="0">
               <value>
@@ -149,25 +149,25 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="teardownforextents()[pri:0, instance:ecom.HomePageTest@69b0fd6f]" name="teardownforextents" is-config="true" duration-ms="803" started-at="2021-01-07T22:39:25 IST" finished-at="2021-01-07T22:39:26 IST">
+        <test-method status="PASS" signature="teardownforextents()[pri:0, instance:ecom.HomePageTest@69b0fd6f]" name="teardownforextents" is-config="true" duration-ms="1484" started-at="2021-03-30T18:04:31 IST" finished-at="2021-03-30T18:04:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownforextents -->
       </class> <!-- ecom.HomePageTest -->
       <class name="ecom.SearchPageTest">
-        <test-method status="PASS" signature="extentreportinitialisation()[pri:0, instance:ecom.SearchPageTest@757942a1]" name="extentreportinitialisation" is-config="true" duration-ms="11" started-at="2021-01-07T22:36:46 IST" finished-at="2021-01-07T22:36:46 IST">
+        <test-method status="PASS" signature="extentreportinitialisation()[pri:0, instance:ecom.SearchPageTest@757942a1]" name="extentreportinitialisation" is-config="true" duration-ms="13" started-at="2021-03-30T18:01:59 IST" finished-at="2021-03-30T18:01:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extentreportinitialisation -->
-        <test-method status="PASS" signature="access()[pri:0, instance:ecom.SearchPageTest@757942a1]" name="access" is-config="true" duration-ms="17790" started-at="2021-01-07T22:38:31 IST" finished-at="2021-01-07T22:38:48 IST">
+        <test-method status="PASS" signature="access()[pri:0, instance:ecom.SearchPageTest@757942a1]" name="access" is-config="true" duration-ms="15967" started-at="2021-03-30T18:03:43 IST" finished-at="2021-03-30T18:03:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- access -->
-        <test-method status="PASS" signature="test1()[pri:1, instance:ecom.SearchPageTest@757942a1]" name="test1" duration-ms="2" started-at="2021-01-07T22:38:48 IST" finished-at="2021-01-07T22:38:48 IST">
+        <test-method status="PASS" signature="test1()[pri:1, instance:ecom.SearchPageTest@757942a1]" name="test1" duration-ms="3" started-at="2021-03-30T18:03:59 IST" finished-at="2021-03-30T18:03:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:ecom.SearchPageTest@757942a1]" name="teardown" is-config="true" duration-ms="846" started-at="2021-01-07T22:38:48 IST" finished-at="2021-01-07T22:38:49 IST">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:ecom.SearchPageTest@757942a1]" name="teardown" is-config="true" duration-ms="1310" started-at="2021-03-30T18:03:59 IST" finished-at="2021-03-30T18:04:01 IST">
           <params>
             <param index="0">
               <value>
@@ -178,15 +178,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="access()[pri:0, instance:ecom.SearchPageTest@757942a1]" name="access" is-config="true" duration-ms="18212" started-at="2021-01-07T22:38:49 IST" finished-at="2021-01-07T22:39:07 IST">
+        <test-method status="PASS" signature="access()[pri:0, instance:ecom.SearchPageTest@757942a1]" name="access" is-config="true" duration-ms="12308" started-at="2021-03-30T18:04:01 IST" finished-at="2021-03-30T18:04:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- access -->
-        <test-method status="PASS" signature="contact_us()[pri:2, instance:ecom.SearchPageTest@757942a1]" name="contact_us" duration-ms="4" started-at="2021-01-07T22:39:07 IST" finished-at="2021-01-07T22:39:07 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contact_us -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:ecom.SearchPageTest@757942a1]" name="teardown" is-config="true" duration-ms="952" started-at="2021-01-07T22:39:07 IST" finished-at="2021-01-07T22:39:08 IST">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:ecom.SearchPageTest@757942a1]" name="teardown" is-config="true" duration-ms="930" started-at="2021-03-30T18:04:13 IST" finished-at="2021-03-30T18:04:14 IST">
           <params>
             <param index="0">
               <value>
@@ -197,11 +193,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="access()[pri:0, instance:ecom.SearchPageTest@757942a1]" name="access" is-config="true" duration-ms="14887" started-at="2021-01-07T22:39:08 IST" finished-at="2021-01-07T22:39:23 IST">
+        <test-method status="PASS" signature="contact_us()[pri:2, instance:ecom.SearchPageTest@757942a1]" name="contact_us" duration-ms="0" started-at="2021-03-30T18:04:13 IST" finished-at="2021-03-30T18:04:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contact_us -->
+        <test-method status="PASS" signature="access()[pri:0, instance:ecom.SearchPageTest@757942a1]" name="access" is-config="true" duration-ms="14777" started-at="2021-03-30T18:04:14 IST" finished-at="2021-03-30T18:04:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- access -->
-        <test-method status="FAIL" signature="titletest3()[pri:3, instance:ecom.SearchPageTest@757942a1]" name="titletest3" duration-ms="11" started-at="2021-01-07T22:39:23 IST" finished-at="2021-01-07T22:39:23 IST">
+        <test-method status="FAIL" signature="titletest3()[pri:3, instance:ecom.SearchPageTest@757942a1]" name="titletest3" duration-ms="12" started-at="2021-03-30T18:04:29 IST" finished-at="2021-03-30T18:04:29 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [awesome] but found [My Store]]]>
@@ -248,7 +248,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- titletest3 -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:ecom.SearchPageTest@757942a1]" name="teardown" is-config="true" duration-ms="1557" started-at="2021-01-07T22:39:23 IST" finished-at="2021-01-07T22:39:25 IST">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:ecom.SearchPageTest@757942a1]" name="teardown" is-config="true" duration-ms="2001" started-at="2021-03-30T18:04:29 IST" finished-at="2021-03-30T18:04:31 IST">
           <params>
             <param index="0">
               <value>
@@ -259,11 +259,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="teardownforextents()[pri:0, instance:ecom.SearchPageTest@757942a1]" name="teardownforextents" is-config="true" duration-ms="88" started-at="2021-01-07T22:39:26 IST" finished-at="2021-01-07T22:39:26 IST">
+        <test-method status="PASS" signature="teardownforextents()[pri:0, instance:ecom.SearchPageTest@757942a1]" name="teardownforextents" is-config="true" duration-ms="93" started-at="2021-03-30T18:04:33 IST" finished-at="2021-03-30T18:04:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownforextents -->
       </class> <!-- ecom.SearchPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- TestOnJenkin -->
+  </suite> <!-- ExtentsReport -->
 </testng-results>

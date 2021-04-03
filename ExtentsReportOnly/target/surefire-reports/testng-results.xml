@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="2" ignored="0" total="8" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="ExtentsReport" duration-ms="135752" started-at="2021-01-07T22:51:26 IST" finished-at="2021-01-07T22:53:42 IST">
+  <suite name="ExtentsReport" duration-ms="170821" started-at="2021-03-31T19:30:53 IST" finished-at="2021-03-31T19:33:44 IST">
     <groups>
     </groups>
-    <test name="TestOnJenkin" duration-ms="135752" started-at="2021-01-07T22:51:26 IST" finished-at="2021-01-07T22:53:42 IST">
+    <test name="TestOnJenkin" duration-ms="170821" started-at="2021-03-31T19:30:53 IST" finished-at="2021-03-31T19:33:44 IST">
       <class name="ecom.HomePageTest">
-        <test-method status="PASS" signature="extentreportinitialisation()[pri:0, instance:ecom.HomePageTest@52feb982]" name="extentreportinitialisation" is-config="true" duration-ms="133" started-at="2021-01-07T22:51:26 IST" finished-at="2021-01-07T22:51:26 IST">
+        <test-method status="PASS" signature="extentreportinitialisation()[pri:0, instance:ecom.HomePageTest@52feb982]" name="extentreportinitialisation" is-config="true" duration-ms="151" started-at="2021-03-31T19:30:53 IST" finished-at="2021-03-31T19:30:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extentreportinitialisation -->
-        <test-method status="PASS" signature="access()[pri:0, instance:ecom.HomePageTest@52feb982]" name="access" is-config="true" duration-ms="16633" started-at="2021-01-07T22:51:26 IST" finished-at="2021-01-07T22:51:43 IST">
+        <test-method status="PASS" signature="access()[pri:0, instance:ecom.HomePageTest@52feb982]" name="access" is-config="true" duration-ms="38410" started-at="2021-03-31T19:30:53 IST" finished-at="2021-03-31T19:31:32 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- access -->
-        <test-method status="PASS" signature="signin()[pri:1, instance:ecom.HomePageTest@52feb982]" name="signin" duration-ms="2632" started-at="2021-01-07T22:51:43 IST" finished-at="2021-01-07T22:51:46 IST">
+        <test-method status="PASS" signature="signin()[pri:1, instance:ecom.HomePageTest@52feb982]" name="signin" duration-ms="4025" started-at="2021-03-31T19:31:32 IST" finished-at="2021-03-31T19:31:36 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signin -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:ecom.HomePageTest@52feb982]" name="teardown" is-config="true" duration-ms="813" started-at="2021-01-07T22:51:46 IST" finished-at="2021-01-07T22:51:47 IST">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:ecom.HomePageTest@52feb982]" name="teardown" is-config="true" duration-ms="1406" started-at="2021-03-31T19:31:36 IST" finished-at="2021-03-31T19:31:37 IST">
           <params>
             <param index="0">
               <value>
@@ -30,15 +30,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="access()[pri:0, instance:ecom.HomePageTest@52feb982]" name="access" is-config="true" duration-ms="15097" started-at="2021-01-07T22:51:47 IST" finished-at="2021-01-07T22:52:02 IST">
+        <test-method status="PASS" signature="access()[pri:0, instance:ecom.HomePageTest@52feb982]" name="access" is-config="true" duration-ms="15268" started-at="2021-03-31T19:31:37 IST" finished-at="2021-03-31T19:31:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- access -->
-        <test-method status="PASS" signature="contact_us()[pri:2, instance:ecom.HomePageTest@52feb982]" name="contact_us" duration-ms="2182" started-at="2021-01-07T22:52:02 IST" finished-at="2021-01-07T22:52:04 IST">
+        <test-method status="PASS" signature="contact_us()[pri:2, instance:ecom.HomePageTest@52feb982]" name="contact_us" duration-ms="3501" started-at="2021-03-31T19:31:52 IST" finished-at="2021-03-31T19:31:56 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contact_us -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:ecom.HomePageTest@52feb982]" name="teardown" is-config="true" duration-ms="764" started-at="2021-01-07T22:52:04 IST" finished-at="2021-01-07T22:52:05 IST">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:ecom.HomePageTest@52feb982]" name="teardown" is-config="true" duration-ms="820" started-at="2021-03-31T19:31:56 IST" finished-at="2021-03-31T19:31:57 IST">
           <params>
             <param index="0">
               <value>
@@ -49,15 +49,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="access()[pri:0, instance:ecom.HomePageTest@52feb982]" name="access" is-config="true" duration-ms="14602" started-at="2021-01-07T22:52:05 IST" finished-at="2021-01-07T22:52:19 IST">
+        <test-method status="PASS" signature="access()[pri:0, instance:ecom.HomePageTest@52feb982]" name="access" is-config="true" duration-ms="15520" started-at="2021-03-31T19:31:57 IST" finished-at="2021-03-31T19:32:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- access -->
-        <test-method status="PASS" signature="enter_search()[pri:3, instance:ecom.HomePageTest@52feb982]" name="enter_search" duration-ms="162" started-at="2021-01-07T22:52:19 IST" finished-at="2021-01-07T22:52:19 IST">
+        <test-method status="PASS" signature="enter_search()[pri:3, instance:ecom.HomePageTest@52feb982]" name="enter_search" duration-ms="538" started-at="2021-03-31T19:32:12 IST" finished-at="2021-03-31T19:32:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enter_search -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:ecom.HomePageTest@52feb982]" name="teardown" is-config="true" duration-ms="831" started-at="2021-01-07T22:52:19 IST" finished-at="2021-01-07T22:52:20 IST">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:ecom.HomePageTest@52feb982]" name="teardown" is-config="true" duration-ms="979" started-at="2021-03-31T19:32:13 IST" finished-at="2021-03-31T19:32:14 IST">
           <params>
             <param index="0">
               <value>
@@ -68,15 +68,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="access()[pri:0, instance:ecom.HomePageTest@52feb982]" name="access" is-config="true" duration-ms="13978" started-at="2021-01-07T22:52:20 IST" finished-at="2021-01-07T22:52:34 IST">
+        <test-method status="PASS" signature="access()[pri:0, instance:ecom.HomePageTest@52feb982]" name="access" is-config="true" duration-ms="14698" started-at="2021-03-31T19:32:14 IST" finished-at="2021-03-31T19:32:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- access -->
-        <test-method status="PASS" signature="click_search_click()[pri:4, instance:ecom.HomePageTest@52feb982]" name="click_search_click" duration-ms="2450" started-at="2021-01-07T22:52:34 IST" finished-at="2021-01-07T22:52:37 IST">
+        <test-method status="PASS" signature="click_search_click()[pri:4, instance:ecom.HomePageTest@52feb982]" name="click_search_click" duration-ms="3298" started-at="2021-03-31T19:32:28 IST" finished-at="2021-03-31T19:32:32 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- click_search_click -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:ecom.HomePageTest@52feb982]" name="teardown" is-config="true" duration-ms="1184" started-at="2021-01-07T22:52:37 IST" finished-at="2021-01-07T22:52:38 IST">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:ecom.HomePageTest@52feb982]" name="teardown" is-config="true" duration-ms="872" started-at="2021-03-31T19:32:32 IST" finished-at="2021-03-31T19:32:33 IST">
           <params>
             <param index="0">
               <value>
@@ -87,11 +87,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="access()[pri:0, instance:ecom.HomePageTest@52feb982]" name="access" is-config="true" duration-ms="13840" started-at="2021-01-07T22:52:38 IST" finished-at="2021-01-07T22:52:52 IST">
+        <test-method status="PASS" signature="access()[pri:0, instance:ecom.HomePageTest@52feb982]" name="access" is-config="true" duration-ms="16009" started-at="2021-03-31T19:32:33 IST" finished-at="2021-03-31T19:32:49 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- access -->
-        <test-method status="FAIL" signature="title()[pri:5, instance:ecom.HomePageTest@52feb982]" name="title" duration-ms="18" started-at="2021-01-07T22:52:52 IST" finished-at="2021-01-07T22:52:52 IST">
+        <test-method status="FAIL" signature="title()[pri:5, instance:ecom.HomePageTest@52feb982]" name="title" duration-ms="29" started-at="2021-03-31T19:32:49 IST" finished-at="2021-03-31T19:32:49 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [awesome] but found [My Store]]]>
@@ -142,7 +142,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- title -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:ecom.HomePageTest@52feb982]" name="teardown" is-config="true" duration-ms="1705" started-at="2021-01-07T22:52:52 IST" finished-at="2021-01-07T22:52:53 IST">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:ecom.HomePageTest@52feb982]" name="teardown" is-config="true" duration-ms="1967" started-at="2021-03-31T19:32:49 IST" finished-at="2021-03-31T19:32:51 IST">
           <params>
             <param index="0">
               <value>
@@ -153,25 +153,25 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="teardownforextents()[pri:0, instance:ecom.HomePageTest@52feb982]" name="teardownforextents" is-config="true" duration-ms="496" started-at="2021-01-07T22:53:42 IST" finished-at="2021-01-07T22:53:43 IST">
+        <test-method status="PASS" signature="teardownforextents()[pri:0, instance:ecom.HomePageTest@52feb982]" name="teardownforextents" is-config="true" duration-ms="749" started-at="2021-03-31T19:33:44 IST" finished-at="2021-03-31T19:33:45 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownforextents -->
       </class> <!-- ecom.HomePageTest -->
       <class name="ecom.SearchPageTest">
-        <test-method status="PASS" signature="extentreportinitialisation()[pri:0, instance:ecom.SearchPageTest@7a765367]" name="extentreportinitialisation" is-config="true" duration-ms="1" started-at="2021-01-07T22:51:26 IST" finished-at="2021-01-07T22:51:26 IST">
+        <test-method status="PASS" signature="extentreportinitialisation()[pri:0, instance:ecom.SearchPageTest@7a765367]" name="extentreportinitialisation" is-config="true" duration-ms="7" started-at="2021-03-31T19:30:53 IST" finished-at="2021-03-31T19:30:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extentreportinitialisation -->
-        <test-method status="PASS" signature="access()[pri:0, instance:ecom.SearchPageTest@7a765367]" name="access" is-config="true" duration-ms="14374" started-at="2021-01-07T22:52:53 IST" finished-at="2021-01-07T22:53:08 IST">
+        <test-method status="PASS" signature="access()[pri:0, instance:ecom.SearchPageTest@7a765367]" name="access" is-config="true" duration-ms="15340" started-at="2021-03-31T19:32:51 IST" finished-at="2021-03-31T19:33:06 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- access -->
-        <test-method status="PASS" signature="test1()[pri:1, instance:ecom.SearchPageTest@7a765367]" name="test1" duration-ms="0" started-at="2021-01-07T22:53:08 IST" finished-at="2021-01-07T22:53:08 IST">
+        <test-method status="PASS" signature="test1()[pri:1, instance:ecom.SearchPageTest@7a765367]" name="test1" duration-ms="10" started-at="2021-03-31T19:33:06 IST" finished-at="2021-03-31T19:33:06 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:ecom.SearchPageTest@7a765367]" name="teardown" is-config="true" duration-ms="856" started-at="2021-01-07T22:53:08 IST" finished-at="2021-01-07T22:53:09 IST">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:ecom.SearchPageTest@7a765367]" name="teardown" is-config="true" duration-ms="833" started-at="2021-03-31T19:33:06 IST" finished-at="2021-03-31T19:33:07 IST">
           <params>
             <param index="0">
               <value>
@@ -182,15 +182,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="access()[pri:0, instance:ecom.SearchPageTest@7a765367]" name="access" is-config="true" duration-ms="14400" started-at="2021-01-07T22:53:09 IST" finished-at="2021-01-07T22:53:23 IST">
+        <test-method status="PASS" signature="access()[pri:0, instance:ecom.SearchPageTest@7a765367]" name="access" is-config="true" duration-ms="15246" started-at="2021-03-31T19:33:07 IST" finished-at="2021-03-31T19:33:22 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- access -->
-        <test-method status="PASS" signature="contact_us()[pri:2, instance:ecom.SearchPageTest@7a765367]" name="contact_us" duration-ms="1" started-at="2021-01-07T22:53:23 IST" finished-at="2021-01-07T22:53:23 IST">
+        <test-method status="PASS" signature="contact_us()[pri:2, instance:ecom.SearchPageTest@7a765367]" name="contact_us" duration-ms="0" started-at="2021-03-31T19:33:22 IST" finished-at="2021-03-31T19:33:22 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contact_us -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:ecom.SearchPageTest@7a765367]" name="teardown" is-config="true" duration-ms="1366" started-at="2021-01-07T22:53:23 IST" finished-at="2021-01-07T22:53:24 IST">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:ecom.SearchPageTest@7a765367]" name="teardown" is-config="true" duration-ms="779" started-at="2021-03-31T19:33:22 IST" finished-at="2021-03-31T19:33:23 IST">
           <params>
             <param index="0">
               <value>
@@ -201,11 +201,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="access()[pri:0, instance:ecom.SearchPageTest@7a765367]" name="access" is-config="true" duration-ms="16311" started-at="2021-01-07T22:53:24 IST" finished-at="2021-01-07T22:53:41 IST">
+        <test-method status="PASS" signature="access()[pri:0, instance:ecom.SearchPageTest@7a765367]" name="access" is-config="true" duration-ms="19370" started-at="2021-03-31T19:33:23 IST" finished-at="2021-03-31T19:33:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- access -->
-        <test-method status="FAIL" signature="titletest3()[pri:3, instance:ecom.SearchPageTest@7a765367]" name="titletest3" duration-ms="10" started-at="2021-01-07T22:53:41 IST" finished-at="2021-01-07T22:53:41 IST">
+        <test-method status="FAIL" signature="titletest3()[pri:3, instance:ecom.SearchPageTest@7a765367]" name="titletest3" duration-ms="16" started-at="2021-03-31T19:33:42 IST" finished-at="2021-03-31T19:33:42 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [awesome] but found [My Store]]]>
@@ -256,7 +256,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- titletest3 -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:ecom.SearchPageTest@7a765367]" name="teardown" is-config="true" duration-ms="1466" started-at="2021-01-07T22:53:41 IST" finished-at="2021-01-07T22:53:42 IST">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:ecom.SearchPageTest@7a765367]" name="teardown" is-config="true" duration-ms="1806" started-at="2021-03-31T19:33:42 IST" finished-at="2021-03-31T19:33:44 IST">
           <params>
             <param index="0">
               <value>
@@ -267,7 +267,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="teardownforextents()[pri:0, instance:ecom.SearchPageTest@7a765367]" name="teardownforextents" is-config="true" duration-ms="82" started-at="2021-01-07T22:53:43 IST" finished-at="2021-01-07T22:53:43 IST">
+        <test-method status="PASS" signature="teardownforextents()[pri:0, instance:ecom.SearchPageTest@7a765367]" name="teardownforextents" is-config="true" duration-ms="140" started-at="2021-03-31T19:33:45 IST" finished-at="2021-03-31T19:33:45 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownforextents -->
